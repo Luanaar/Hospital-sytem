@@ -1,12 +1,13 @@
 {
   "name": "hospital-system",
   "version": "1.0.0",
-  "main": "server.js",
+  "main": "api/index.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node backend/server.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^5.1.0"
   }
 }
+
